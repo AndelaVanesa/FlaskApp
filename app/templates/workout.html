@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div class="col-sm-2 sidenav">
+
+        </div>
+        <div class="col-sm-8 text-left">
+            <h1>Vježbe</h1>
+            <p>Tu možete pronaći nekoliko meni najdražih vježbi. Jednostavne i bez ikakve opreme.</p>
+            <hr>
+            <h5>Čučnjevi</h5>
+            <img class='workoutImg' src="{{ url_for('static', filename='img/cucnjevi.jpg') }}" alt="">
+            <hr class="smallHr">
+            <h5>Trbušnjaci</h5>
+            <img class='workoutImg' src="{{ url_for('static', filename='img/trbusnjaci.jpg') }}" alt="">
+            <hr class="smallHr">
+            <h5>Sklekovi</h5>
+            <img class='workoutImg' src="{{ url_for('static', filename='img/sklekovi.jpg') }}" alt="">
+            <hr class="smallHr">
+            <h5>Plank</h5>
+            <img class='workoutImg' src="{{ url_for('static', filename='img/plank.jpg') }}" alt="">
+            <hr class="smallHr">
+        </div>
+        <div class="col-sm-2 sidenav">
+
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,91 @@
+.navbar {
+    background-color: #f1f1f1;
+}
+
+.content {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.page-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: darkgray;
+    background-color: #7d3975;
+    margin-top: 50px;
+
+}
+
+.footer-copyright {
+    margin: 0 auto;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+    height: 450px
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+.display-3 {
+    color: #4d004d;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #4d004d;
+}
+
+.workoutImg {
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.smallHr {
+    width: 75%;
+    margin: 0 auto 50px auto;
+}
+.foodImg {
+    width: 100%;
+    margin: 25px auto;
+    border-radius: 10px;
+}
+
+.ingredients {
+    list-style: none;
+    font-weight: bold;
+}
+
+.container-fluid {
+    margin-bottom: 50px;
+}
+
+.sidenav {
+    background-color: transparent;
+}
+
+.tipsImg {
+    width: 75%;
+    border: 3px solid #4d004d;
+    border-radius: 10px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+
+    .row.content {
+        height: auto;
+    }
+}
